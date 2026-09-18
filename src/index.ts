@@ -5,7 +5,7 @@ import createAlert from "./routes/createAlert.js";
 import showAlerts from "./routes/showAlerts.js";
 import alerting from "./routes/alerting.js";
 import { logger } from "./utils/logger.js";
-import { initInflux } from "./api/influxdb.js";
+//import { initInflux } from "./api/influxdb.js";
 import { AugmentedContext } from "./types/grammy.js";
 import { FixedPrismaAdapter, prisma } from "./api/prisma.js";
 import favorites from "./routes/favorites.js";
