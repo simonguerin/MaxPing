@@ -6,7 +6,7 @@ import { prisma } from "./prisma.js";
 
 let api: WriteApi;
 
-export function initInflux() {
+/*export function initInflux() {
   if (
     !process.env.INFLUX_URL ||
     !process.env.INFLUX_TOKEN ||
@@ -71,3 +71,4 @@ export async function saveTrains(trainsIDs: number[] = []) {
     logger.warn({ err }, "InfluxDB push failed.");
   }
 }
+*/
